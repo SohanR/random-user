@@ -59,6 +59,13 @@ function formatMoney(number) {
 }
 
 
+
+
+//event listeners
+addUserBtn.addEventListener('click', getRandomUser)
+
+
+
 getRandomUser()
 getRandomUser()
 getRandomUser()
