@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #f4f4f4;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +17,11 @@ body {
           align-items: center;
   min-height: 100vh;
   margin: 0;
+}
+
+body h1 {
+  margin-top: 10px;
+  color: #007bff;
 }
 
 body .container {
@@ -62,6 +67,20 @@ body .container main h2 {
           justify-content: space-between;
   font-weight: 300;
   margin: 0 0 20px;
+}
+
+body .container main h3 {
+  background-color: #fff;
+  border-top: 1px solid #111;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
 }
 
 body .person {
